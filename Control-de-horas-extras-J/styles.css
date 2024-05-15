@@ -1,0 +1,180 @@
+/* Animacion del Login */
+  
+  .h1_login {
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-family: "Sofia", sans-serif;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+
+/* Estilos para la tabla de visualizar horas */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #afafaf;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+/* Estilos para contenedor del index */
+.body_index {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+}
+
+.contenedor_index {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #5e2f2f;
+    border-radius: 5px;
+    background-color: #98c3c9;
+}
+
+.h1_index {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+.p_index {
+    font-family: "Sofia", sans-serif;
+}
+
+
+/* Estilo contenedor login */
+.body_login {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+    
+}
+
+.contenedor_login {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #98c3c9;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilos Contenedor Guardar Horas */
+.body_guardar_horas {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+}
+
+.contenedor_guardar_horas {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #5e2f2f;
+    border-radius: 5px;
+    background-color: #98c3c9;
+}
+
+.h1_guardar_horas {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+
+/* Estilos Contenedor visualizar horas */
+
+.body_visualizar_horas {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+}
+
+.contenedor_visualizar_horas {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #5e2f2f;
+    border-radius: 5px;
+    background-color: #98c3c9;
+}
+
+.h1_visualizar_horas {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+
+
+/* Estilos Contenedor administrar usuarios */
+.body_administrar_usuarios {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+}
+
+.contenedor_administrar_usuarios {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #5e2f2f;
+    border-radius: 5px;
+    background-color: #98c3c9;
+}
+
+.h1_administrar_usuarios {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+
+/* Estilos Contenedor Registro */
+.body_registro {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+}
+
+.contenedor_registro {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #5e2f2f;
+    border-radius: 5px;
+    background-color: #98c3c9;
+}
+
+.h1_registro {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
